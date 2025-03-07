@@ -10,7 +10,7 @@ from gym_aloha.constants import (
     unnormalize_puppet_gripper_position,
 )
 
-BOX_POSE = [None]  # to be changed from outside
+BOX_POSE = [None, None]  # to be changed from outside
 
 """
 Environment for simulated robot bi-manual manipulation, with joint position control
